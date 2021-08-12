@@ -28,9 +28,11 @@
     url: "https://download.docker.com/linux/ubuntu/gpg"
     state: present
 
-- name: Adicioando Repositorio do Docker
+- name: "Instalando repositório Docker"
   apt_repository:
-    repo: "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu {{ distro_release }} stable"
+    repo: "deb [arch=amd64] https://download.docker.com/linux/ubuntu {{ansible_facts['distribution_release']}} stable"
+    state: present
+    update_cache: yes
 
 - name: Atualizando base APT e instalando docker-ce, docker-compose, containerd.io 
   apt:
