@@ -1,2 +1,3 @@
 ---
 # defaults file for iac-role-odoo-base
+distro_release: "focal"
