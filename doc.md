@@ -15,3 +15,13 @@ O que fazer amanhã?
 
 1. Fazer o docker funcionar na instancia
 2. Criar testes
+
+Qual a ideia do trabalho com a imagem do Odoo?
+----
+
+1. A imagem inodoo130 precisa de uma instancia do postgres ativa
+2. Rodar primeiro uma instancia do postgresql
+3. Subir a imagem inodoo130
+4. Testar se as dependencias da imagem (iugu/mercadopago) estão funcionando (BUG DO DEMONIO)
+5. Caso não estejam ativas instalar
+6. testar o odoo com o postgres
