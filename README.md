@@ -1,31 +1,27 @@
-Role Name
+IAC-ROLE-ODOO-BASE
 =========
 
-A brief description of the role goes here.
+Rodar um WebService do Odoo 13.0 com Localização Brazileira da Trust Code mais implementanção de pagamentos da Code-137, tudo isso rodando em container docker.
 
-Requirements
+
+Requisitos
 ------------
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+Subir um container docker em uma instancia EC2 na AWS, subir uma apliccnao Odoo e uma banco de dados Postgres.
 
 Role Variables
 --------------
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+A description of the settable variables
 
 Dependencies
 ------------
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+- Molecule
+- Ansible
+- Python
 
-Example Playbook
-----------------
-
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
+Dependencias serão adicionadas no arquivos ***requirements.txt***
 
 License
 -------
@@ -35,4 +31,4 @@ BSD
 Author Information
 ------------------
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+I am CFLB, just an ordinary citizen!
