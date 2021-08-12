@@ -1,5 +1,11 @@
-Documentando
-=============
+# Documentando
+
+Vou documentar na forma de passo a passo cada dia que eu trabalhar nesta role e tentar ser o mais "baby steps" possível. ***ME POLICIAR PARA GARANTIR ESTA IDEIA***
+
+## Dia:
+> Início: 22h de 11 de Ago. 2021
+
+--------------
 
 Passo a passo. ou quase!
 ----
@@ -10,11 +16,15 @@ Passo a passo. ou quase!
 4. Atualizar e Instalar o Docker - Ok
 5. Testar o docker
 
+--------------
+
 O que fazer amanhã?
 ----
 
 1. Fazer o docker funcionar na instancia
 2. Criar testes
+
+--------------
 
 Qual a ideia do trabalho com a imagem do Odoo?
 ----
@@ -25,6 +35,8 @@ Qual a ideia do trabalho com a imagem do Odoo?
 4. Testar se as dependencias da imagem (iugu/mercadopago) estão funcionando (BUG DO DEMONIO)
 5. Caso não estejam ativas instalar
 6. testar o odoo com o postgres
+
+--------------
 
 NÃO ESQUECER DO CI/CD
 ====
