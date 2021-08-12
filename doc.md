@@ -25,3 +25,6 @@ Qual a ideia do trabalho com a imagem do Odoo?
 4. Testar se as dependencias da imagem (iugu/mercadopago) estão funcionando (BUG DO DEMONIO)
 5. Caso não estejam ativas instalar
 6. testar o odoo com o postgres
+
+NÃO ESQUECER DO CI/CD
+====
