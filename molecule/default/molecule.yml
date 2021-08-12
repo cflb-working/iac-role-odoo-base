@@ -11,17 +11,6 @@ platforms:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
     privileged: true
     pre_build_image: true
-  
-  #- name: odoo13-server
-  #  image: "docker.io/cleytonflb/inodoo130:0.1"
-  #  command: ${MOLECULE_DOCKER_COMMAND:-""}
-  #  volumes:
-  #    - /sys/fs/cgroup:/sys/fs/cgroup:ro
-  #  privileged: true
-  #  pre_build_image: true
-  #- name: Postgres
-  #  image: docker.io/sameersbn/postgresql:9.6-2
-  #  pre_build_image: true
 provisioner:
   name: ansible
 verifier:
